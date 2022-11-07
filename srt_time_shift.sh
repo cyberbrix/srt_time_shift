@@ -64,4 +64,4 @@ do
     else
         printf "%s\n" "$line" | tr -d '\r'
     fi	
-done < $srcfile
+done < "$srcfile"
